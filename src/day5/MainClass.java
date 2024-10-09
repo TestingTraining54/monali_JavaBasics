@@ -9,6 +9,7 @@ public static void main(String[] args) {
 		System.out.println(s1.id);//0
 		System.out.println(s1.name);//null
 		
+		
 		Student s2 = new Student(34,"xyz","CTY453456F");
 		
 		Student s3 = new Student("I", 'C');
