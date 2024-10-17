@@ -1,6 +1,8 @@
 package day7;
 
-public class MainClass {
+import day8.Student;
+
+public class MainClass extends Student{
 
 	public static void main(String[] args) {
 		IRBIBank icici = new ICICIBank();
@@ -14,6 +16,8 @@ public class MainClass {
 		a.m2();
 		
 		ICICIBank ic = new ICICIBank();
+		
+		
 
 	}
 

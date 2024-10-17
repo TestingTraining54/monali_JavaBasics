@@ -1,5 +1,7 @@
 package day4;
 
+import day8.Student;
+
 public class LoopDemo {
 	/*
 	 * for
@@ -57,6 +59,7 @@ public class LoopDemo {
 			System.out.println(k);//101
 			k=k+10;//111
 		}while(k<=100);//111<=100
+		
 		
 		
 		
