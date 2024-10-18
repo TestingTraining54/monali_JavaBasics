@@ -31,7 +31,7 @@ public class StringDemo {
 	System.out.println(sl1.equals(sl3));//true//Is value of sl1 and sl3 are same or not
 	
 	System.out.println("Using new Keyword");
-	String sn1=new String("Coffee");
+	String sn1=new String("COFFEE and Tea");
 	String sn2=new String("Tea");
 	String sn3=new String("Coffee");
 	System.out.println("Comparing both reference pointing to same object or not > ==");
@@ -41,6 +41,28 @@ public class StringDemo {
 	System.out.println("Comparing both String values > equals() or equalsIgnoreCase()");
 	System.out.println(sn1.equals(sn2));//false//Is value of sl1 and sl2 are same or not
 	System.out.println(sn1.equals(sn3));//true//Is value of sl1 and sl3 are same or not
+	
+	
+	System.out.println(sn1.charAt(4));//e
+	//System.out.println(sn1.compareTo(sn2));
+	System.out.println(sn1.contains("ffe"));//true
+	System.out.println(sn1.endsWith("es"));//true
+	System.out.println(sn1.startsWith("Co"));//true
+	System.out.println(sn1.indexOf('f'));//2
+	System.out.println(sn1.lastIndexOf('f'));//6
+	System.out.println(sn1.replace('f','s'));
+	System.out.println(sn1.substring(2, 5));//ffe
+	System.out.println(sn1.substring(2));//ffesf
+	System.out.println(sn1.toLowerCase());
+	System.out.println(sn1.toUpperCase());
+	System.out.println(sn1.trim());
+	String[] splitArray=sn1.split("and");
+	//System.out.println(splitArray[0]);
+	for(int i=0;i<splitArray.length;i++) {
+		System.out.println(splitArray[i]);
+	}
+	
+	
 	
 	
 	}
