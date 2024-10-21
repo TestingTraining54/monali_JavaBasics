@@ -32,7 +32,11 @@ public class HashSetDemo {
 			System.out.println(it.next());
 		}
 	
-		
+		/*
+		 * ArrayList : al1 : 45,56,45,12,56
+		 * Delete the duplicate value
+		 * 
+		 */
 		
 
 	}
