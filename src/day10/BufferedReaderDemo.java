@@ -12,8 +12,9 @@ public class BufferedReaderDemo {
  * IOException
  * FileNotFoundException
  * 
+ * source code > compiled(.class) > run
  */
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException  {
 		String filePath = "./src/day10/test";
 		FileReader fr = new FileReader(filePath);
 		BufferedReader br = new BufferedReader(fr);
